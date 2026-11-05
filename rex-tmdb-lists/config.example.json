@@ -1,0 +1,18 @@
+{
+  "tmdb_token": "",
+  "tmdb_language": "en-US",
+  "lists": [
+    {"id": 123456, "name": "Watchlist"}
+  ],
+  "stream_addons": [
+    "https://example-addon.invalid/manifest.json"
+  ],
+  "rex_url": "http://127.0.0.1:32400",
+  "listen": "127.0.0.1:9983",
+  "relay_url": "http://127.0.0.1:9983",
+  "source": "tmdb-lists",
+  "item_limit": 250,
+  "interval_hours": 6,
+  "ffprobe": "ffprobe",
+  "cache_dir": "cache"
+}
